@@ -13,6 +13,10 @@
 		1441CA2E21B60EA7009EBBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1441CA2D21B60EA7009EBBEA /* Assets.xcassets */; };
 		1441CA3121B60EA7009EBBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1441CA2F21B60EA7009EBBEA /* LaunchScreen.storyboard */; };
 		1441CA3421B60EA7009EBBEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441CA3321B60EA7009EBBEA /* main.m */; };
+		1441CA3C21B60EC9009EBBEA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441CA3B21B60EC9009EBBEA /* Person.m */; };
+		1441CA3F21B60EF8009EBBEA /* Person+A.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441CA3E21B60EF8009EBBEA /* Person+A.m */; };
+		1441CA4221B60F18009EBBEA /* Person+B.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441CA4121B60F18009EBBEA /* Person+B.m */; };
+		1441CA4521B61DB8009EBBEA /* BasePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1441CA4421B61DB8009EBBEA /* BasePerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		1441CA3021B60EA7009EBBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1441CA3221B60EA7009EBBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1441CA3321B60EA7009EBBEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1441CA3A21B60EC9009EBBEA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1441CA3B21B60EC9009EBBEA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1441CA3D21B60EF8009EBBEA /* Person+A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+A.h"; sourceTree = "<group>"; };
+		1441CA3E21B60EF8009EBBEA /* Person+A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+A.m"; sourceTree = "<group>"; };
+		1441CA4021B60F18009EBBEA /* Person+B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+B.h"; sourceTree = "<group>"; };
+		1441CA4121B60F18009EBBEA /* Person+B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+B.m"; sourceTree = "<group>"; };
+		1441CA4321B61DB8009EBBEA /* BasePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePerson.h; sourceTree = "<group>"; };
+		1441CA4421B61DB8009EBBEA /* BasePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				1441CA2521B60EA6009EBBEA /* AppDelegate.m */,
 				1441CA2721B60EA6009EBBEA /* ViewController.h */,
 				1441CA2821B60EA6009EBBEA /* ViewController.m */,
+				1441CA4321B61DB8009EBBEA /* BasePerson.h */,
+				1441CA4421B61DB8009EBBEA /* BasePerson.m */,
+				1441CA3A21B60EC9009EBBEA /* Person.h */,
+				1441CA3B21B60EC9009EBBEA /* Person.m */,
+				1441CA3D21B60EF8009EBBEA /* Person+A.h */,
+				1441CA3E21B60EF8009EBBEA /* Person+A.m */,
+				1441CA4021B60F18009EBBEA /* Person+B.h */,
+				1441CA4121B60F18009EBBEA /* Person+B.m */,
 				1441CA2A21B60EA6009EBBEA /* Main.storyboard */,
 				1441CA2D21B60EA7009EBBEA /* Assets.xcassets */,
 				1441CA2F21B60EA7009EBBEA /* LaunchScreen.storyboard */,
@@ -142,8 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1441CA2921B60EA6009EBBEA /* ViewController.m in Sources */,
+				1441CA3C21B60EC9009EBBEA /* Person.m in Sources */,
+				1441CA4221B60F18009EBBEA /* Person+B.m in Sources */,
+				1441CA3F21B60EF8009EBBEA /* Person+A.m in Sources */,
 				1441CA3421B60EA7009EBBEA /* main.m in Sources */,
 				1441CA2621B60EA6009EBBEA /* AppDelegate.m in Sources */,
+				1441CA4521B61DB8009EBBEA /* BasePerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
