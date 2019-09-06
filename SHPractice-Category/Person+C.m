@@ -10,8 +10,15 @@
 
 @implementation Person (C)
 
+- (void)eat{
+    NSLog(@"personC eat");
+}
 
 + (void)load{
     NSLog(@"PersonC load");
+}
+
++ (void)initialize{
+    NSLog(@"PersonC initialize");
 }
 @end

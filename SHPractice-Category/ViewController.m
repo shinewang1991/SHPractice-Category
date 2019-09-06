@@ -36,7 +36,7 @@
      总结:分类存在同样的对象方法，后编译的会覆盖前编译的。 所有只会调用最后编译的方法。(其实不是覆盖，只不过所有方法会存在一个方法表里，最后编译的category方法会放在表最前面，执行时找到一个方法了，后面就不会去找了).
      */
     
-    
+    /*
     if (p) {
         unsigned int methodCount;
         Method *methodList = class_copyMethodList(p, &methodCount);
@@ -60,7 +60,7 @@
         }
         free(methodList);
     }
-    
+    */
     
     /*
      打印person eat.

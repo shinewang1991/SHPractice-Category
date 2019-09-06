@@ -12,4 +12,12 @@
 - (void)eat{
     NSLog(@"BasePerson eat");
 }
+
++ (void)load{
+    NSLog(@"BasePerson load");
+}
+
++ (void)initialize{
+    NSLog(@"BasePerson initialize");
+}
 @end

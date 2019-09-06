@@ -16,4 +16,8 @@
 + (void)load{
     NSLog(@"Person load");
 }
+
++ (void)initialize{
+    NSLog(@"Person initialize");
+}
 @end
